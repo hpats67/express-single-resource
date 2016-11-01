@@ -1,4 +1,7 @@
-const server = require('./lib/http-server');
+const app = require('./lib/app');
+const http = require('http');
+
+const server =http.createServer(app);
 
 const port = 8080;
 server.listen(port, err => {

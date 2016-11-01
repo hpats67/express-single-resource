@@ -1,10 +1,10 @@
 {
   "name": "express-single-resource",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "express": "^4.14.0",
+    "sander": "^0.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }
