@@ -1,0 +1,31 @@
+{
+  "name": "express-single-resource",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpats67/express-single-resource.git"
+  },
+  "author": "@hpats67",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hpats67/express-single-resource/issues"
+  },
+  "homepage": "https://github.com/hpats67/express-single-resource#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "sander": "^0.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
